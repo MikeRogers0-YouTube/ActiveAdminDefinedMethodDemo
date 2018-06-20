@@ -3,6 +3,7 @@ class MissionControl::Engine < ::Rails::Engine
   isolate_namespace MissionControl
 end
 
+# TODO: Deleting these engines stops the error appearing
 MissionControl::Engine.routes.draw do
   resources :projects
 end
