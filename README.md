@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is to recreate the problem noted in the PR§
 
-Things you may want to cover:
+## To Recreate
 
-* Ruby version
+Pull down, and run:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+RACK_ENV=production RAILS_ENV=production bx rails c
