@@ -16,3 +16,7 @@ irb(main):001:0> exit
 Pull down, and run:
 
 RACK_ENV=production RAILS_ENV=production bx rails c
+
+## Things I've noticed while debugging
+
+- I the error disappeared when I deleted the engine in `config/routes.rb`
