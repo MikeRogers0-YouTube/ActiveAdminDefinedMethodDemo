@@ -1,6 +1,6 @@
 # README
 
-This is to recreate the problem noted in the PR§
+This is to recreate the problem noted in the PR https://github.com/activeadmin/activeadmin/issues/5316#issuecomment-398425770 
 
 Pretty much, stating up the app would throw a method already defined method warning:
 
