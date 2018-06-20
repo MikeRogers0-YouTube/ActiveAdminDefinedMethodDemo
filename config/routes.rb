@@ -8,12 +8,8 @@ MissionControl::Engine.routes.draw do
 end
 
 Rails.application.routes.draw do
-  constraints subdomain: 'admin' do
-    devise_for :admin_users, ActiveAdmin::Devise.config
-    ActiveAdmin.routes(self)
-  end
-  
-  mount MissionControl::Engine => '/', as: :mission_control
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
 
   root to: 'projects#index'
 end
