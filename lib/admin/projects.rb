@@ -12,6 +12,8 @@ ActiveAdmin.register Project do
 #   permitted
 # end
 
+  puts "I'm being evaluated I think"
+  
   action_item :restore_link, only: :show do
     link_to 'Restore account', restore_resource_admin_website_path(resource), method: :patch, 'data-confirm': 'Are you sure?'
   end
