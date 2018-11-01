@@ -1,9 +1,10 @@
-module MissionControl; end;
-class MissionControl::Engine < ::Rails::Engine
-  isolate_namespace MissionControl
+# NOTE: Deleting these engines stops the error appearing
+module MissionControl
+  class Engine < ::Rails::Engine
+    isolate_namespace MissionControl
+  end
 end
 
-# TODO: Deleting these engines stops the error appearing
 MissionControl::Engine.routes.draw do
 end
 
