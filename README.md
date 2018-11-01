@@ -17,6 +17,8 @@ Pull down, and run:
 
 RACK_ENV=production RAILS_ENV=production bx rails c
 
+Note: https://github.com/MikeRogers0/ActiveAdminDefinedMethodDemo/commit/20916a6cd1e4adebb2250e351f989f3428d047d0 - is what I done to fix this issue.
+
 ## Things I've noticed while debugging
 
 - I the error disappeared when I deleted the engine in `config/routes.rb`
