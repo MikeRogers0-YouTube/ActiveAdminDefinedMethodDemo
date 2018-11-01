@@ -291,5 +291,11 @@ ActiveAdmin.setup do |config|
   #
   # config.order_clause = MyOrderClause
 
+  # == Load Paths
+  #
+  # If you're noticing a warning in your logs/console like:
+  # "Warning: method `restore_resource` already defined"
+  # Move your `app/admin` folder into `lib/admin`
+  # Then manually add the load path like:
   config.load_paths += Dir[Rails.root.join('lib', 'admin')]
 end
